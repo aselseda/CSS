@@ -1,0 +1,12 @@
+div{
+    background: yellow;
+}
+
+div::after {
+    content: "sonraki yazı";
+    color: red;
+    background-color: blue;
+}
+
+/* after ögesi ile sonradan  div içerisinde ikinci bir öge oluşturduk.
+*/ 

@@ -1,0 +1,13 @@
+h3 ~ p {
+    color: red;
+}
+/* ul li ve list2den sonra gelen ilk listenin rengini
+ul li.list2 + li{
+    color:blue ;
+}
+*/
+
+/* list2den sonra gelen tüm li'lerin rengini değiştirir.*/
+ul li.list2 ~ li {
+    color:blueviolet
+}

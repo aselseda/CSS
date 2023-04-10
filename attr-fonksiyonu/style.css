@@ -1,0 +1,21 @@
+div{
+    background: yellow;
+}
+
+.box::after {
+    content: attr(data-sonrasi);
+    color: red;
+    background-color: blue;
+}
+
+.box::before {
+    content:attr(data-oncesi);
+    color: white;
+    background: green;
+}
+
+a[target="_blank"]::after {
+    content: attr(href);
+}
+/* after ögesi ile sonradan  div içerisinde ikinci bir öge oluşturduk.
+*/ 

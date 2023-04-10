@@ -1,0 +1,6 @@
+div[class*="top" i] {
+    background: purple;
+} 
+
+/*  i konularak işlemler büyük küçük harfe duyarsız hale geliyor
+*/

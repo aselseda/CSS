@@ -1,0 +1,5 @@
+div[class*="title"] {
+    background: purple;
+}
+
+/* title değerinin geçiyor olması yeterli*/

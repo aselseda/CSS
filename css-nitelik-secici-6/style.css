@@ -1,0 +1,6 @@
+div[class$="box"] {
+    background:green ;
+}
+
+/* box içeren herşeyi işaretler ayrı yada bitişik yazılsa da  
+*/

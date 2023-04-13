@@ -1,0 +1,22 @@
+input {
+    color: red;
+}
+input::placeholder {
+    color: red;
+}
+textarea {
+    color: blue;
+}
+textarea::placeholder{
+    color:blue;
+    font-size: 20px;
+}
+
+/*  Mesaj kutusunun içindeki görünen ama yazı yazılırken silinen mesajın rengini,boyutunu vs. değiştirmeyi sağlar
+*/
+
+/*  ::placeholder{
+    color:pink;
+    }
+    yazılsaydı tüm placeholder'lar pembe gözükürdü.
+*/

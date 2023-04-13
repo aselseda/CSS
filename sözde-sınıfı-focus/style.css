@@ -1,0 +1,18 @@
+input[type="radio"]:checked + span {
+    color: red;
+}
+/*.checkbox:checked + .box {
+    display: none;
+} 
+*/
+.button::before{
+    content: attr(data-hide);
+    background-color: lime;
+}
+.checkbox:checked + .button::before {
+    content: attr(data-show);
+    background-color: blueviolet;
+}
+.checkbox:checked + button + .box {
+    display: none;
+}

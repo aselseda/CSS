@@ -1,0 +1,34 @@
+/* 
+ul li:nth-child(3){
+    background-color: orange;
+}
+istediğimiz listeyi seçmek istediğimizde
+*/
+
+/*
+ul li:nth-child(odd){
+    background-color: blue;
+}
+tek satırları seçmek istediğimizde
+*/
+
+/*
+ul li:nth-child(even){
+    background-color: blueviolet;
+}
+çift satırları seçmek istediğimizde
+*/
+
+/*
+ul li:nth-child(3n){
+    background-color: yellowgreen;
+}
+3'er satır seçerek ilerler
+*/
+
+/*
+ul li:nth-child(n+4):nth-child(even):nth-child(-n+8){
+    background-color: yellowgreen;
+}
+4'den 8'e kadar çift ilerler
+*/

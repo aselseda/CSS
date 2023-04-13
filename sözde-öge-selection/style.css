@@ -1,0 +1,11 @@
+::selection{
+    background: purple;
+    color: white;
+}
+p::selection{
+    background: green;
+}
+
+/* yazılan yazıları tararken renk değişikliği
+En fazla yazılan yazıların veya arka planın rengini değiştirir.
+*/

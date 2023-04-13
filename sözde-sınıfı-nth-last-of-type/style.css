@@ -1,0 +1,5 @@
+div:nth-of-type(1){
+    background-color: lime
+}
+/* div içerisinde yer alan sondan 1. divi seçmemizi sağlar.
+*/

@@ -1,0 +1,13 @@
+li:first-child{
+    background-color: yellow;
+}
+
+div ul:first-child{
+    background-color: red;
+}
+
+div:first-child{
+    background-color: green;
+}
+/* ilk etiket div se rengini değiştirir ama ilk etiket p ile başlıyorsa değiştirmez
+*/

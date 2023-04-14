@@ -1,0 +1,9 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: lime;
+    margin: 50px auto;
+    border: 5px solid tomato;
+    outline: 5px solid green;
+    outline-offset: 5px;
+}

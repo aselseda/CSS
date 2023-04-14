@@ -1,0 +1,10 @@
+:root{
+    background-color: tomato;
+}
+html{
+    background-color: teal;
+}
+body{
+    background-color:plum;
+}
+/*root htmlden daha öncelikli buna kullanacağımız style daha öncelikli*/

@@ -1,0 +1,27 @@
+div{
+    background-color: lime;
+    width: 200px;
+    height: 200px;
+    /* yukarı-aşağı,sol-sağ*/
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    /*margin: 0 auto 15px; de yazılablirdi*/
+}
+
+span{
+    background-color: teal;
+    margin-left:50px;
+    margin-right: 100px;
+}
+/*margin top ve margin bottom kullanımı spanlarda yapamıyoruz*/
+/*
+margin:dış boşluk
+padding:iç boşluk
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-right: 50px;
+    margin-bottom: 70px;
+    margin-left: 50px;
+*/

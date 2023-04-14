@@ -1,0 +1,25 @@
+.box1{
+    width: 250px;
+    height: 250px;
+    background-color: lime;
+    border-style: dotted dashed double dotted;
+    border-width: 10px 15px 20px 20px;
+    border-color: tomato teal violet purple;
+}
+
+.box2{
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+    border: 10px solid green;
+}
+
+input {
+    outline: none;
+    border: 3px solid #ddd;
+}
+
+input:focus{
+    border-color: green blue;
+}

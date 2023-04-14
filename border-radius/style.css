@@ -1,0 +1,30 @@
+.box{
+    width: 300px;
+    height: 300px;
+    border: 10px double black;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 65px;
+}
+.box2{
+    width: 300px;
+    height: 300px;
+    border: 10px double black;
+    border-top-left-radius: 50px 100px;
+}
+.box3{
+    width: 300px;
+    height: 300px;
+    border: 10px double black;
+    border-radius: 50px 100px 80px 200px;
+}
+.box4{
+    width: 300px;
+    height: 300px;
+    border: 10px double black;
+    border-radius: 50%;
+}
+img{
+    border-top-left-radius: 50px 100px;
+}

@@ -1,0 +1,10 @@
+.box1{
+    background-color: lime;
+    width: min-content;
+}
+/* max=yazının içeriği ne kadarsa genişliği o kadar olur
+min= tek tek kelimelere göre parçalar ve genişliği en uzun kelimeye göre yapar */
+.box2{
+    background-color: tomato;
+    writing-mode: vertical-lr;
+}

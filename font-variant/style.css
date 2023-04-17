@@ -1,0 +1,8 @@
+div{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+div span{
+    font-variant: small-caps;
+}
+/*küçük yazıları büyütüp ama küçük şekilde göstermeye yarar.small-caps genellikle kullanılır.*/

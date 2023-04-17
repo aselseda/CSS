@@ -1,0 +1,13 @@
+/* 
+font-size
+font-family
+font-style
+font-variant
+font-weight
+line-height
+font
+*/
+
+p{
+    font: italic bold 30px/1.7 Arial,sans-serif;
+}

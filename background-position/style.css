@@ -1,0 +1,10 @@
+html{
+    height: 100%;
+}
+body{
+    background-image: url(yıldız.jpg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    /*background-position: 20% 70%;
+      background-position: 25px 10px; */
+}

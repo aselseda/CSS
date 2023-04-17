@@ -1,0 +1,8 @@
+p::first-line{
+    text-align: justify;
+}
+p{
+    text-align-last: justify;
+}
+/* ilk satır ve son satırda hizalama yapmak için kullanılır.
+*/

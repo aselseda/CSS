@@ -1,0 +1,11 @@
+body{
+    background-color: aquamarine;
+}
+.box{
+    width: 600px;
+    height: 300px;
+    background-color: blueviolet;
+}
+.box:last-child{
+    background-color: transparent;
+}

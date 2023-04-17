@@ -1,0 +1,28 @@
+html{
+    font-size: 20px;
+}
+body{
+    font-size: 30px;
+}
+div{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+
+    /* font-size: 1em;
+    1 em ebeveynin font-size'ina eşittir o da normal şartlarda
+    16px'dir */
+}
+div span{
+    font-size: 1rem;
+}
+
+/* div span ebeveyni html'in font-size'ina bakılır 1rem=16px'dir. */
+div em{
+    font-size: smaller;
+}
+div strong{
+    font-size: 100%;
+}
+h6{
+    font-size: 40px;
+}

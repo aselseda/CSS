@@ -1,0 +1,22 @@
+div{
+    margin-bottom: 15px;
+    /*
+    text-decoration-line:underline overline;
+    text-decoration-color:lime;
+    text-decoration-style: wavy;
+    */
+
+    text-decoration: underline overline lime wavy;
+}
+div:last-of-type {
+    text-decoration: none;
+}
+
+h3{
+    text-decoration: underline overline lime wavy;;
+}
+
+h3 span {
+    text-decoration: none;
+}
+/*span içinde yer aldığı için kaldırmıyor*/

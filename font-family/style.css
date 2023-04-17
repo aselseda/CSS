@@ -1,0 +1,19 @@
+/*
+sans
+sans-serif
+monospace
+cursive
+fantasy
+system-ui
+*/
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+/*birden fazla font yazma sebebi türkçe karakteri karşıladığı fonta kadar bakar*/
+div {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+span{
+    font-family: 'Courier New', Courier, monospace;
+}

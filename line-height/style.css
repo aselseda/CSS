@@ -1,0 +1,10 @@
+/* yazıların daha okunaklı olması için satır aralarının yüksekliğidir
+1 - 1.5 - 2 - 3.5
+30px 20px
+100% - 150%
+1em 2em 3em
+şekillerinde kullanılabilir.
+*/
+p{
+    line-height: 1.6;
+}

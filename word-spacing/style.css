@@ -1,0 +1,7 @@
+p{
+    word-spacing: 5px;
+}
+/*em ve rem kullanılabilir - değerler de kullanılabilir*/
+p:last-child{
+    word-spacing: normal;
+}

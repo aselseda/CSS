@@ -1,0 +1,11 @@
+body{
+    height: 3000px;
+}
+
+.prototurk{
+    width: 300px;
+    border: 10px dashed black;
+    height: 300px;
+    padding: 15px;
+    background: content-box center/cover green url(yıldız.jpg) no-repeat content-box;
+}

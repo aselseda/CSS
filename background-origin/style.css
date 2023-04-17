@@ -1,0 +1,9 @@
+.box{
+    border:10px dashed black;
+    padding: 40px;
+    width: 200px;
+    height: 200px;
+    background-image: url(emoji.jpg),url(yıldız.jpg);
+    background-repeat: no-repeat,no-repeat;
+    background-origin: content-box,padding-box;
+}

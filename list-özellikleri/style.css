@@ -1,0 +1,32 @@
+ul, ol {
+    /*
+    list-style-type: circle;
+    list-style-position: outside;
+    */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.sayac{
+    counter-reset: sayac1 3 sayac2;
+}
+ul.sayac li{
+    counter-increment: sayac1 2 sayac2;
+}
+ul.sayac li::before{
+    content: counter(sayac1) ")";
+}
+ul.sayac li::after{
+    content: counter(sayac2) ")";
+}
+
+.articles{
+    counter-reset: makale;
+}
+.articles article{
+    counter-increment: makale;
+}
+.articles article h3::before{
+    content: counter(makale) ". Makale --> ";
+}

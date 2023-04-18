@@ -1,0 +1,29 @@
+a{
+    background-color: red;
+    color: #fff;
+    transition:1s background-color ease, 2s color ease-out; 
+}
+a:hover{
+    background-color: yellow;
+}
+div{
+    height: 50px;
+    width: 0;
+    background-color: blue;
+    transition-property: width;
+    transition-duration: 1s;
+    margin-bottom: 10px;
+}
+
+.container div:nth-child(1){
+    transition-timing-function: cubic-bezier(.03,.93,.6,-0.6);
+}
+.container div:nth-child(2){
+    transition-timing-function: cubic-bezier(0,0.55,0.45,1);
+}
+.container div:nth-child(3){
+    transition-timing-function: cubic-bezier(0.68, -0.6, 0.32, 1.6);
+}
+body:hover .container div{
+    width: 100%;
+}

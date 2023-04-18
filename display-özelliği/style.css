@@ -1,0 +1,12 @@
+span{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    display: inline-block;
+}
+div{
+    width: 100px;
+    height: 100px;
+    display: inline;
+    background-color: rebeccapurple;
+}

@@ -1,0 +1,46 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(to right,transparent,rgba(0,255,0,.5)),
+    linear-gradient(to left,transparent,rgba(255,0,0,.5)),
+    url(prototurk.png);
+    background-size: cover;
+    /*,
+    background-image: linear-gradient( to top,orange,red); */
+}
+
+.box2 {
+    width: 200px;
+    height: 200px;
+    background-image: radial-gradient(at center,lime,blue);
+}
+.box3 {
+    width: 200px;
+    height: 200px;
+    background-image: conic-gradient(from 225deg,lime,blue);
+}
+.box4 {
+    width: 200px;
+    height: 200px;
+    background-color: #f8f8f8;
+    background-image: repeating-linear-gradient(45deg, transparent 0 8px,#ddd 8px 16px);
+    line-height: 50px;
+    padding: 0 25px;
+    font-size: 24px;
+    font-weight: bold;
+    border: 1px solid #999;
+}
+
+.box5 {
+    width: 200px;
+    height: 200px;
+    background-image: repeating-radial-gradient(lime 0 15px,blue 15 30px);
+    border-radius: 50%;
+}
+
+.box6 {
+    width: 200px;
+    height: 200px;
+    background-image:repeating-conic-gradient(lime 0 30deg,orange 30 60deg, purple 60 90deg,red 90 120deg);
+    border-radius: 50%;
+}

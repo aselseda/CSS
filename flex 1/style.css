@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,body {
+    height: 100%;
+}
+
+.container{
+    display: flex;
+    /* flex-direction:column; satır veya sütun olarak yazar.*/
+   /* width: 250px; */
+    flex-wrap: wrap; /*tek satıra yazma veya lat satıra indirmek için...
+    her satıra 5 tane sığdı 50px kutudan 250px dolduracak kadar gerisinde alt satıra indirir*/
+    height: 200px; 
+    padding: 0 20px;
+    background-color: #ccc;
+    justify-content: space-between; /*boşluğa göre hizalama yapmak için başlangıca,sona,aralıklı dengeli gibi...*/
+    align-items: flex-start; /*dikeyde hizalama yapmak için başa,sona,ortala*/
+    align-content: center; /*birden fazla ögenin kendi aralarındaki hizalaması için...*/
+}
+
+.box{
+    width: 50px;
+    height: 50px;
+    background: #eee;
+}
